@@ -3,7 +3,7 @@
   "rules": {
     "adjacent-overload-signatures": true,
     "align": [true, "statements"],
-    "array-type": [true, "array-simple"],
+    "array-type": [true, "array"],
     "arrow-parens": false,
     "class-name": true,
     "comment-format": [
