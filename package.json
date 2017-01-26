@@ -1,6 +1,6 @@
 {
   "name": "@knisterpeter/standard-tslint",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "My personal standard tslint configuration",
   "main": "tslint-config.json",
   "scripts": {
