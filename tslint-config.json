@@ -87,8 +87,7 @@
     "typedef": [
       true,
       "call-signature",
-      "property-declaration",
-      "member-variable-declaration"
+      "property-declaration"
     ],
     "typedef-whitespace": [
       true,
