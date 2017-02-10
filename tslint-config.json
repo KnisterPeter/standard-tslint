@@ -5,6 +5,7 @@
     "align": [true, "statements"],
     "array-type": [true, "array"],
     "arrow-parens": false,
+    "arrow-return-shorthand": [true],
     "class-name": true,
     "comment-format": [
       true,
@@ -16,6 +17,7 @@
     "eofline": true,
     "forin": true,
     "indent": [true, "spaces"],
+    "import-spacing": true,
     "interface-name": [true, "never-prefix"],
     "jsdoc-format": true,
     "label-position": true,
@@ -34,12 +36,15 @@
     "no-eval": true,
     "no-inferrable-types": [true],
     "no-internal-module": true,
+    "no-misused-new": true,
     "no-parameter-properties": true,
     "no-reference": true,
     "no-require-imports": false,
     "no-shadowed-variable": false,
+    "no-string-throw": true,
     "no-switch-case-fall-through": false,
     "no-trailing-whitespace": true,
+    // "no-unsafe-any": true,
     "no-unused-expression": true,
     "no-unused-new": true,
     "no-var-keyword": true,
@@ -60,7 +65,9 @@
       "import-sources-order": "case-insensitive",
       "named-imports-order": "any"
     }],
+    "prefer-const": true,
     "prefer-for-of": true,
+    "prefer-method-signature": true,
     "quotemark": [
       true,
       "single",
@@ -69,6 +76,7 @@
     ],
     "radix": true,
     "semicolon": [true, "always"],
+    "space-before-function-paren": [true, "never"],
     "trailing-comma": [true,
         {
             "multiline": "never",
@@ -99,8 +107,9 @@
         "variable-declaration": "onespace"
       }
     ],
+    "typeof-compare": true,
+    "unified-signatures": true,
     "use-isnan": true,
-
     "whitespace": [
       true,
       "check-branch",
