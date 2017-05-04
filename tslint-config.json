@@ -38,7 +38,7 @@
     "no-eval": true,
     "no-inferrable-types": [true],
     "no-internal-module": true,
-    "no-irregular-whitespaces": true,
+    // "no-irregular-whitespaces": true,
     "no-misused-new": true,
     "no-object-literal-type-assertion": true,
     "no-parameter-properties": true,
