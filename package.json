@@ -1,13 +1,15 @@
 {
   "name": "@knisterpeter/standard-tslint",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "My personal standard tslint configuration",
   "main": "tslint-config.json",
-  "scripts": {
-  },
+  "scripts": {},
   "author": {
     "name": "Markus Wolf",
     "email": "knister.peter@shadowrun-clan.de"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "tslint": "^5.2.0"
+  }
 }
