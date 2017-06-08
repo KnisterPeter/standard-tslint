@@ -14,7 +14,10 @@
     ],
     "curly": true,
     "cyclomatic-complexity": [true, 6],
-    "deprecation": true,
+    "deprecation": {
+      "options": true,
+      "severity": "warning"
+    },
     "eofline": true,
     "forin": true,
     "indent": [true, "spaces"],
