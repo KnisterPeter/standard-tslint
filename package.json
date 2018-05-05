@@ -1,6 +1,6 @@
 {
   "name": "@knisterpeter/standard-tslint",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "My personal standard tslint configuration",
   "main": "tslint-config.json",
   "scripts": {},
@@ -10,6 +10,6 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "tslint": "^5.2.0"
+    "tslint": "^5.10.0"
   }
 }

@@ -2,10 +2,21 @@
   "extends": "./tslint-base.json",
   "rules": {
     "adjacent-overload-signatures": true,
+    "ban-types": {
+      "options": [
+          ["Object", "Avoid using the `Object` type. Did you mean `object`?"],
+          ["Function", "Avoid using the `Function` type. Prefer a specific function type, like `() => void`."],
+          ["Boolean", "Avoid using the `Boolean` type. Did you mean `boolean`?"],
+          ["Number", "Avoid using the `Number` type. Did you mean `number`?"],
+          ["String", "Avoid using the `String` type. Did you mean `string`?"],
+          ["Symbol", "Avoid using the `Symbol` type. Did you mean `symbol`?"]
+      ]
+    },
     "align": [true, "statements"],
     "array-type": [true, "array"],
     "arrow-parens": false,
     "arrow-return-shorthand": [true],
+    "await-promise": true,
     "class-name": true,
     "comment-format": [
       true,
@@ -27,6 +38,7 @@
     "label-position": true,
     "max-line-length": [true, 120],
     "member-access": true,
+    "member-ordering": [true, {"order": "statics-first"}],
     "new-parens": true,
     "no-angle-bracket-type-assertion": true,
     "no-any": false,
@@ -39,20 +51,21 @@
     "no-duplicate-super": true,
     "no-empty": true,
     "no-eval": true,
+    "no-floating-promises": true,
+    "no-implicit-dependencies": true,
     "no-inferrable-types": [true],
     "no-internal-module": true,
-    // "no-irregular-whitespaces": true,
     "no-misused-new": true,
     "no-object-literal-type-assertion": true,
     "no-parameter-properties": true,
     "no-reference": true,
     "no-reference-import": true,
     "no-require-imports": false,
+    "no-return-await": true,
     "no-shadowed-variable": false,
     "no-string-throw": true,
     "no-switch-case-fall-through": false,
     "no-trailing-whitespace": [true, "ignore-comments", "ignore-jsdoc", "ignore-template-strings"],
-    // "no-unsafe-any": true,
     "no-unnecessary-type-assertion": true,
     "no-unused-expression": true,
     "no-var-keyword": true,
@@ -78,6 +91,8 @@
     "prefer-for-of": true,
     "prefer-method-signature": true,
     "prefer-template": [true, "allow-single-concat"],
+    "prefer-readonly": true,
+    "promise-function-async": true,
     "quotemark": [
       true,
       "single",
@@ -117,7 +132,7 @@
       }
     ],
     "typeof-compare": true,
-    "unified-signatures": true,
+    "unified-signatures": false,
     "use-isnan": true,
     "whitespace": [
       true,
