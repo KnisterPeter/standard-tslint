@@ -38,7 +38,13 @@
     "label-position": true,
     "max-line-length": [true, 120],
     "member-access": true,
-    "member-ordering": [true, {"order": "statics-first"}],
+    "member-ordering": [true, {"order": [
+      "static-field",
+      "static-method",
+      "instance-field",
+      "constructor",
+      "instance-method"
+    ]}],
     "new-parens": true,
     "no-angle-bracket-type-assertion": true,
     "no-any": false,
